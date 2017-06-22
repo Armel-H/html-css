@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+      <meta http-esquiv="x-UA-compatible" content="ie=edge">
+      <title>document</title>
+    </head>
+
+    <body>
+
+    <p><strong><h1>MON REPAS DE NOEL</h1></strong>
+
+
+    <p>J'ai eu la chance d'avoir un repas de Nöel <em>excellent</em>, puisqu'il était composé des plats suivants :
+    </p>
+
+
+    <ul>
+      <li>du foie gras sur des toasts grillés(<em>ça j'adore</em>)</li>
+      <li>du saumon rose</li>
+      <li>de la pintade avec de la purée</li>
+      <li>un bûche glacée</li>
+
+      <p>Et le tout arrosé de <strong>champagne</strong>.</p>
+
+    <p> et après j'ai pu déballer tous mes cadeaux</p>
+
+    </ul>
+
+    <ol>
+
+      <li>Mamie Lulu : des DVD</li>
+      <li>Mamie Elisabeth : des CD</li>
+      <li>Tonton Hugues : des livres</li>
+
+    </ol>
