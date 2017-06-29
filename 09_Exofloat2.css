@@ -1,0 +1,23 @@
+body{
+  background:radial-gradient(blue, white,purple, black)
+}
+.c1, .c2{
+  height: 40px;
+  width: 40px;
+  border: 1px solid;/*si on ne met pas la 3eme valeur la couleur du trait sera par defaut noire*/
+  margin: 2px;
+  float: left;
+  border-radius: 17%;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 25px;
+}
+.clear{
+  clear: both;
+}
+.c1{
+  background-color: pink
+}
+.c2{
+  background-color: white
+}

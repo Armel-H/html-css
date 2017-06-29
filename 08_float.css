@@ -1,0 +1,29 @@
+body{
+  background-color: pink;
+}
+div{
+  margin: 50px 0 0 50px;
+}
+img{
+  height: 200px;/*hauteur*/
+  width: 280px;/* largeur*/
+  border: 5px inset orchid;/*style, taille, couleur de la bordure*//*ou dotted pour faire apparaître en pointillés, double, solid*/
+  margin: 15px;
+  display: block;
+  float: left;
+  transition: margin 0.5s;
+}
+p{
+  background-color: red;
+  /*display: inline;*/ /*display permet de changer la balise inlin en block*/
+
+}
+img:hover{/*la pseudo-classe:hover modifie un affichage au survol de la souris*/
+    margin-top: 3px;
+}
+.clear{
+  clear: both;
+}
+   p span{
+   background-color: yellow;
+ }

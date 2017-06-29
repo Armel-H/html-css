@@ -1,0 +1,87 @@
+body{
+  background:radial-gradient(blue, white,purple, black)
+}
+.c1, .c2{
+  height: 40px;
+  width: 40px;
+  border: 1px solid;/*si on ne met pas la 3eme valeur la couleur du trait sera par defaut noire*/
+  margin: 2px;
+  float: left;
+
+  text-align: center;
+  padding-top: 2px;
+  font-size: 25px;
+}
+.clear{
+  clear: both;
+}
+.c1{
+  background-color: pink;
+  border-radius:50%;
+}
+.c2{
+  background-color: white
+
+}
+.c3, .c4{
+  height: 40px;
+  width: 40px;
+  border: 1px solid;
+  margin: 2px;
+  float: left;
+  border-radius: 17%;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 25px;
+}
+.clear{
+  clear:both;
+}
+.c3{
+  background-color: green;
+}
+.c4{
+  background-color: brown;
+}
+
+
+.c5, .c6{
+  height: 40px;
+  width: 40px;
+  border: 1px solid;/*si on ne met pas la 3eme valeur la couleur du trait sera par defaut noire*/
+  margin: 2px;
+  float: left;
+  border-radius: 17%;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 25px;
+}
+  .clear{
+    clear: both;
+}
+.c5{
+  background-color: yellow;
+}
+.c6{
+  background-color: blue;
+}
+.c7, .c8{
+  height: 40px;
+  width: 40px;
+  border: 1px solid;/*si on ne met pas la 3eme valeur la couleur du trait sera par defaut noire*/
+  margin: 2px;
+  float: left;
+  border-radius: 17%;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 25px;
+}
+.clear{
+  clear: both;
+}
+.c7{
+  background-color: black;
+}
+.c8{
+  background-color: red;
+}
