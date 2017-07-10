@@ -1,0 +1,60 @@
+#contenu{
+    width: 80%;
+    margin: 20px; auto;
+    border: 80px /*solid darkslategray;*/
+}
+
+header{
+    background-color:inherit;
+    height: 200px;
+}
+
+nav{
+    background-color: inherit;
+    height: 30px;
+}
+
+section{
+    background-color: inherit;
+    height: 250px;
+    margin: 20px;
+}
+
+footer{
+    background-color: inherit;
+    height: 100px;
+}
+.a, .b, .c, .d, .e, .f, .g{
+    background-color: inherit;
+    width: 50%;
+    height: 250px;
+    /*float: left;*/
+}
+.a{
+
+    width: 40%;
+}
+.b{
+
+    width: 60%;
+}
+.c{
+
+}
+.d{
+
+}
+.e{
+
+}
+.f{
+
+}
+.g{
+    
+}
+
+
+.clear{
+    /*clear: both;*/
+}
