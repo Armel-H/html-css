@@ -101,12 +101,29 @@ i{
 
     }
 
-
-
-
-
-
-
-
-
 /*----fin de header*/
+
+/*---Section*/
+
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#story h2{
+    font-size: 55px;
+}
+section .rectRose{
+    position: inherit;
+    margin: auto;
+    left: 0;
+    bottom: 15px;
+}
+
+section img{
+    width: 100%;
+    
+}
+
+
+/*----fin de section*/
