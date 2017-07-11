@@ -1,10 +1,19 @@
 /*-----header----*/
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');/*police sur google font*/
 
+body{
+    background: #89D0B3;
+}
+.container{
+/*  width: 70%;*/
+  margin: 15em;
+  margin-left: 10em;
+  margin-right: 10em;
+ /* width:  /* largeur obligatoire pour être centré */    background-color: white;
+}
 header{
     position: relative;/*pour positionner les enfants en absolue*/
     background-image: url('img/woodPlank.jpg');/*image de fond*/
-
 }
 
 nav{
@@ -121,7 +130,7 @@ section .rectRose{
 }
 
 section img{
-    width: 100%;
+    width: 150%;
 
 }
 section> section{
@@ -160,6 +169,9 @@ section p, section h2{
     background-image: url('img/asperge.jpg');
     background-size: cover;
 }
+#soap{
+  height: 775px;
+}
 
 #soap .pBloc-left{
     width: 30%;
@@ -169,8 +181,9 @@ section p, section h2{
     height: 900px;
 }
 #drink{
-    height: 755px;
+    height: 800px;
 }
+
 .txtRose{
     color: #e56f6f;
     font-weight: bold;
@@ -183,11 +196,16 @@ section p, section h2{
 }
 #drink .pBloc-left img{
     position: relative;
-    top: 70px;
-    z-index: -1;/*position sur l'axe vertical - gère l'empilement de 2 ou plusieurs éléments*/
+    top: 40px;
+    /*z-index: -1;/*position sur l'axe vertical - gère l'empilement de 2 ou plusieurs éléments*/
 }
 #eggs{
     width: 100%;
+
+}
+#eggs img{
+    width: 105%;
+    height: 105%;
 }
 
 
@@ -215,13 +233,13 @@ footer p{
 #social ul{
     float: right;
     margin-right: 50px;
-    padding-left: 65vw;
+    padding-left: 50vw;
 }
 
 
 #social li{
     display: inline-block;
     text-align: right;
-    margin: 0 5px;
+    margin: 0/* 5px;*/30px;
     color: #e53f6f;
 }
