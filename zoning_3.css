@@ -1,88 +1,83 @@
-body{
-    background: blue;
-}
-#contenu{
-  width:80%;
+#conteneur{
+  width: 960px;
+  background: paleturquoise;
+  color: white;
   margin: 0 auto;
-  border: 2px solid black;
-}
+  text-align: center;
 
-header{
-  background-color: #8e3557;
+ }
+header {
+  background: tan;
   height: 60px;
-  text-align: center;
-}
-
-nav{
-  background-color: #4a1a2c;
+  line-height: 60px;
+ /* text-align: center;*/
+ }
+nav {
+  background: #808000;
   height: 30px;
-  text-align: center;
-}
+  line-height: 30px;
+  /*text-align: center;*/
+ }
 section{
-  background-color: lightblue;
-  height: 750px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  margin-right: 187px;
-  margin-left: 187px;
-}
-
-
-footer{
-  background-color: #4a1a2c;
-  width: 80%;
-  margin: 0 auto;
-  border: 2px solid black;
-  height: 60px;
-  text-align: center;
-}
-#contenu{
-  width: 80%;
-  margin: 0 auto;
-  border: 2px solid darkslategray;
-}
-
-header{
-  background-color: #8e3557;
-  height: 100px;
-}
-
-nav{
-  background-color: #4a1a2c;
-  height: 30px;
-}
-
-section{
-  background-color: #787746;
   height: 500px;
-  margin-left: 187px;
-  margin-right:187px;
+  background: #00FF00;
+  margin: 10px;
+  }
+.residence{
+   border: 1px solid #0000FF;
+   float: left;
+   height: 248px;
+   width: 468px;
+  /* overflow: hidden;*/
 }
-
-footer{
-  background-color: #4a1a2c;
-  height: 100px;
-}
-.a, .b, .c, .d{
-  width: 50%;
-  height: 250px;
+.maison {
+   border: 1px solid;
   float: left;
+  height: 122px;
+  line-height: 122px;
+  /*text-align: center;*/
+  width: 232px;
 }
-.a{
-  background-color: lightblue;
-  border-right: black;
-  border-left: black;
+.color_pink{
+   background: pink;
 }
-.b{
-  background-color: lightblue;
-}
-.c{
-  background-color: lightblue;
-}
-.d{
-  background-color: lightblue;
+.jardin{
+border: 1px solid;
+float: left;
+height: 122px;
+line-height: 122px;
+/*text-align: center;*/
 }
 
-.clear{
-  clear: both;
+
+.color_lightblue{
+  background: lightblue;
+ }
+.garage{
+border: 1px solid;
+float: left;
+height: 122px;
+line-height: 122px;/*centrer les mots au milieu*/
+ width: 232px;
+/*text-align: center;*/
 }
+.color_gray{
+  background: gray;
+}
+.grenier{
+border: 1px solid;
+float: left;
+height: 122px;
+line-height: 122px;
+/*text-align: center;*/
+width: 232px;
+}
+.color_orange{
+  background: orange;
+}
+footer {
+  background: silver;
+  height: 70px;
+  line-height: 70px;
+ /* text-align: center;*/
+  }
